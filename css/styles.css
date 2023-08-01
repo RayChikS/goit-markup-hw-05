@@ -493,6 +493,10 @@ ul{
 .footer-content-text{
 	margin-right: 120px;
 }
+
+
+
+
 .footer-social-text{
 	font-family: Roboto;
 	font-size: 16px;
@@ -529,10 +533,69 @@ ul{
 .footer-icon {
 	fill: var(--cloud);
 }
+.footer-content-socials{
+	margin-right: 80px;
+}
 
-
-
-
+.subscribe{}
+.subscribe-title{
+	margin-bottom: 16px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--white);
+	margin-bottom: 16px;
+}
+.subscribe-btn{
+	box-shadow: none;
+	border: none;
+	display: inline-flex;
+	padding: 8px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	color: var(--white);
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+	border-radius: 4px;
+	background: var(--iris);
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.64px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+	background-color: var(--ocean);
+}
+.subscribe-form{
+	display: flex;
+}
+.subscribe-input{
+	width: 264px;
+	height: 40px;
+	color: var(--white);
+	border-radius: 4px;
+	border: 1px solid var(--white, #FFF);
+	background: var(--navyblue, #2E2F42);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	margin-right: 24px;
+}
+.subscribe-input::placeholder{
+	color: var(--white, #FFF);
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.48px;
+}
 /* ______________MAIN-PORTFOLIO_______________ */
 
 
