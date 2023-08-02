@@ -458,7 +458,14 @@ ul{
 
 
 
-/* ________________FOOTER___________________ */
+/**
+	|============================
+	| FOOTER
+	|============================
+*/
+
+
+
 
 .footer{
 	background-color: var(--navyblue);
@@ -538,6 +545,10 @@ ul{
 	margin-right: 80px;
 }
 
+
+.subscribe-icon{
+	margin-left: 16px;
+}
 .subscribe{}
 .subscribe-title{
 	margin-bottom: 16px;
@@ -550,22 +561,25 @@ ul{
 	margin-bottom: 16px;
 }
 .subscribe-btn{
+	min-width: 165px;
+	height: 40px;
 	box-shadow: none;
 	border: none;
-	display: inline-flex;
+	display: flex;
 	padding: 8px 24px;
 	justify-content: center;
 	align-items: center;
 	gap: 16px;
 	color: var(--white);
 	text-align: center;
-	font-family: Roboto;
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	border-radius: 4px;
+	cursor: pointer;
 	background: var(--iris);
 	font-weight: 500;
 	line-height: 1.5;
-	letter-spacing: 0.64px;
+	letter-spacing: 0.04em;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-btn:hover,
@@ -574,14 +588,19 @@ ul{
 }
 .subscribe-form{
 	display: flex;
+	gap: 24px;
 }
 .subscribe-input{
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	width: 264px;
 	height: 40px;
 	color: var(--white);
 	border-radius: 4px;
-	border: 1px solid var(--white, #FFF);
-	background: var(--navyblue, #2E2F42);
+	border: 1px solid var(--white);
+	background-color: transparent;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -589,15 +608,18 @@ ul{
 	margin-right: 24px;
 }
 .subscribe-input::placeholder{
-	color: var(--white, #FFF);
-	font-family: Roboto;
-	font-size: 12px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 24px;
-	letter-spacing: 0.48px;
+	color: var(--white);
 }
-/* ______________MAIN-PORTFOLIO_______________ */
+
+
+
+/**
+	|============================
+	| MAIN-PORTFOLIO
+	|============================
+*/
+
+
 
 
 .categories{
