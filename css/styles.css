@@ -758,6 +758,7 @@ ul{
 	pointer-events: none;
 }
 .modal-vindow{
+	padding: 72px 24px 24px 24px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
