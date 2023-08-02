@@ -918,11 +918,7 @@ ul{
 
 
 
-.button-content{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
 .modal-btn{
 	display: block;
 	min-width: 169px;
