@@ -831,7 +831,7 @@ ul{
 .modal-input:focus{
 	border-color: #4D5AE5;
 }
-.modal-input:focus span {
+.modal-input:focus > .inputs-content > .modal-icon {
 	fill: #4D5AE5;
 }
 .modal-form-content{
