@@ -831,7 +831,7 @@ ul{
 .modal-input:focus{
 	border-color: #4D5AE5;
 }
-.modal-input:focus > .inputs-content > .modal-icon {
+.modal-input:focus + .modal-icon {
 	fill: #4D5AE5;
 }
 .modal-form-content{
@@ -865,7 +865,7 @@ ul{
 .modal-checkbox:checked {
 	background-color: var(--ocean);
 }
-.modal-checkbox:checked > .check-label >.check-span {
+.modal-checkbox:checked + .check-label >.check-span {
 	background-color: var(--ocean);
 	border: none;
 	fill: var(--cloud);
@@ -908,14 +908,6 @@ ul{
 	justify-content: center;
 	fill: transparent;
 }
-
-
-
-
-
-
-
-
 
 
 
