@@ -866,10 +866,12 @@ ul{
 }
 .modal-checkbox:checked + .check-label >.check-span {
 	background-color: var(--ocean);
-	border: 1px solid purple;
+	border: none;
 	fill: var(--cloud);
 }
-
+.modal-checkbox:focus + .check-label > .check-span{
+	border-color: var(--ocean);
+}
 
 
 
